@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Webgentle.BookStore.Controllers
 {
-    public class HomeController : Controller
+    public class BookController : Controller
     {
-        public ViewResult Index()
+        public IActionResult Index()
         {
             return View();
         }
